@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4386053355965377958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1298362436332496366}
+  - component: {fileID: 5271391287566386850}
+  m_Layer: 0
+  m_Name: test_action
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1298362436332496366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386053355965377958}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6389663, y: 0.07379046, z: -0.02199155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5271391287566386850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386053355965377958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02f110de67daaa4b9d60a87a77f0c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost:
+    Cost_strain: 0
+    Cost_blood: 0
+    Cost_psyche: 0
+    Cost_strain_adrenaline: 10
+    Cost_strain_endorphin: 0
+    Cost_blood_beast: 0
+    Cost_blood_human: 0
+    Cost_psyche_delusional: 0
+    Cost_psyche_rational: 0
+  effects:
+  - {fileID: 8105602341087962390, guid: fa52649da4277c042b795c533b13bcd8, type: 3}
+  act_spr: {fileID: 0}
